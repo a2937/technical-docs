@@ -9,6 +9,9 @@ topic3: Your first function
 topic4: Using our first function
 topic5: Script tags
 ---
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
 <section id="Getting_an_code_editor" class="main-section">
 
 <header>Getting an code editor</header>
