@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-  <link rel="stylesheet" href="{{relative}}/styles.css">
+  <link rel="stylesheet" href="{{relative}}assets/css/styles.css">
 
   <title>{{page.title}}</title>
 </head>
@@ -18,7 +18,7 @@
 <body>
   <nav id="navbar" class="sidenav">
     <header>Getting started with Javascript</header>
-    <a href="{{relative}}/index.html">Home</a>
+    <a href="{{relative}}index.html">Home</a>
     <a href="#{{page.topic1 | replace: ' ', '_'}}" class="nav-link">{{page.topic1}}</a>
     {% if page.topic2 %}
     <a href="#{{page.topic2 | replace: ' ', '_'}}" class="nav-link">{{page.topic2}}</a>
@@ -40,7 +40,7 @@
     <h1>{{page.title}}</h1>
     {{content}}
   </main>
-  <script src="{{relative}}/index.js">
+  <script src="{{relative}}index.js">
   </script>
   <script>
 //turnBackgroundPink();
@@ -51,7 +51,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
-  <script src="{{relative}}/filePath.js">
+  <script src="{{relative}}filePath.js">
   </script>
 </body>
 
