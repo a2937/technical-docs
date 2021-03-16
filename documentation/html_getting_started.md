@@ -26,7 +26,7 @@ There is no debug information or highlighting to indicate whether or not anythin
 
 Fortunate for us, we'll be using the Visual Studio Code editor.
 
-Navigate to [Visual Studio's main website](https://code.visualstudio.com/) and get the stable build.
+Navigate to <a href="https://code.visualstudio.com/">Visual Studio's main website<a/> and get the stable build.
 
 Click the download button and run the installer.
 
@@ -43,13 +43,13 @@ Open it up and you should be ready to write some code.
 
 To start off with, we will be running code in the browser.
 
-Open Visual Studio Code to a blank document and save it as _index.html_.
+Open Visual Studio Code to a blank document and save it as <em>index.html</em>.
 
 This tells Visual Studio Code we want features related to HTML (hyper text markup language).
 
 For those unaware html opening and closing tags to express elements of the page.
 
-Next we'll be using an _Emmet_ abbreviation to fill out a beginner html page.
+Next we'll be using an <em>Emmet</em> abbreviation to fill out a beginner html page.
 
 Type the following into Visual Studio Code and hit enter.
 
@@ -95,9 +95,9 @@ Open your webpage in the browser and navigate to the developer tools.
 
 This is typically opened by pressing the F12 key on the keyboard.
 
-Once there navigate to the _console_ tab on the developer tools.
+Once there navigate to the <em>console</em> tab on the developer tools.
 
-The latest line should say _Hello World_.
+The latest line should say <em>Hello World</em>.
 
 If not, please check your document and see that it matches below
 <br/>
@@ -131,7 +131,7 @@ And if necessary take a break before going onto the next section.
 
 Now we are going to write code in a separate file.
 
-Create a new file in your directory called _index.js_.
+Create a new file in your directory called <em>index.js</em>.
 
 This a proper Javascript file and will be used to contain our code.
 
@@ -150,7 +150,7 @@ We'll start by writing the function header.
 </code>
 <br/>
 </div>
-This declares we are creating a function called _turnBackgroundPink_.
+This declares we are creating a function called <em>turnBackgroundPink</em>.
 
 The function keyword indicates that the following is a function.
 
@@ -182,15 +182,15 @@ Here is what the line looks like below.
   </code>
 </div>
 <br/>
-To summarize what this does, basically the _document_ property represents the current html page in memory.
+To summarize what this does, basically the <em>document</em> property represents the current html page in memory.
 
-Next we are locating the body element of the page that exists on the _document_ object.
+Next we are locating the body element of the page that exists on the <em>document</em> object.
 
 Then we are setting the style property of that element to affect the background-color, and setting it to pink.
 
 This is in JSON (JavaScript Object Notation). JSON consists of key value pairs and can have interior properties set with colons rather than an equal sign.
 
-More on [JSON](https://www.w3schools.com/Js/js_json_objects.asp) here.
+More on <a href="https://www.w3schools.com/Js/js_json_objects.asp">JSON</a>here.
 
 Here's what the end result should look like.
 <br/>
@@ -212,7 +212,7 @@ Here's what the end result should look like.
 
 In the last section we defined our last function but didn't use it yet.
 
-Go back to _index.html_.
+Go back to <em>index.html</em>.
 
 Above the closing body tag we are going to add a new script tag.
 
@@ -278,7 +278,7 @@ You should have something like this.
 <br/>
 In the last script tag we are going to call our function.
 
-In the final script tag we are going to write _turnBackgroundPink()_
+In the final script tag we are going to write <em>turnBackgroundPink()</em>
 
 Here's what the final html page should look like.
 <br/>
