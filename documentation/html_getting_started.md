@@ -56,7 +56,7 @@ Type the following into Visual Studio Code and hit enter.
 `html:5`
 
 It should fill out a page similar to below. If not adjust it to match.
-
+<br/>
 <br/>
 <button class="collapsible">View Code</button>
 <div class="content">
@@ -81,6 +81,7 @@ This element allows code to be ran on your web page.
 
 Underneath the opening tag to the body, we are going to write
 <br/>
+<br/>
 <button class="collapsible">View Code</button>
 <div class="content">
   <code>
@@ -101,6 +102,7 @@ Once there navigate to the <em>console</em> tab on the developer tools.
 The latest line should say <em>Hello World</em>.
 
 If not, please check your document and see that it matches below
+<br/>
 <br/>
 <button class="collapsible">View Code</button>
 <div class="content">
@@ -145,6 +147,7 @@ A function is an executable piece of code that will perform an action.
 
 We'll start by writing the function header.
 <br/>
+<br/>
 <button class="collapsible">View Code</button>
 <div class="content">
 <br/>
@@ -164,6 +167,7 @@ Next we will be adding a function body. Create an opening and closing curly brac
 
 Here is what it should look like so far below.
 <br/>
+<br/>
 <button class="collapsible">View Code</button>
 <div class="content">
   <code>
@@ -178,6 +182,7 @@ Next we are going to write a line of code that will add the background-color sty
 
 Here is what the line looks like below.
 
+<br/>
 <br/>
 <button class="collapsible">View Code</button>
 <div class="content">
@@ -197,6 +202,7 @@ This is in JSON (JavaScript Object Notation). JSON consists of key value pairs a
 More on <a href="https://www.w3schools.com/Js/js_json_objects.asp">JSON</a>here.
 
 Here's what the end result should look like.
+<br/>
 <br/>
 <button class="collapsible">View Code</button>
 <div class="content">
@@ -225,6 +231,7 @@ This time though we are setting the src (source) attribute of the script tag.
 The src attribute is used to literally point to a javascript source file.
 
 Here is what the script tag should look like.
+<br/>
 <br/>
 <button class="collapsible">View Code</button>
 <div class="content">
@@ -258,6 +265,7 @@ Add a new script tag below the one you just added.
 
 You should have something like this.
 <br/>
+<br/>
 <button class="collapsible">View Code</button>
 <div class="content">
   <code>
@@ -285,6 +293,7 @@ In the last script tag we are going to call our function.
 In the final script tag we are going to write <em>turnBackgroundPink()</em>
 
 Here's what the final html page should look like.
+<br/>
 <br/>
 <button class="collapsible">View Code</button>
 <div class="content">
