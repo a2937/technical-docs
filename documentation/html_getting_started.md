@@ -35,7 +35,7 @@ Click through the various options.
 Open it up and you should be ready to write some code.
 
 </section>
-
+<br/>
 <section id="Hello_World" class="main-section">
 
 <header>Hello World</header>
@@ -74,6 +74,7 @@ It should fill out a page similar to below. If not adjust it to match.
         &lt;/html&gt;<br />
   </code>
 </div>
+<br/>
 We're next going to add a script tag element.
 
 This element allows code to be ran on your web page.
@@ -124,7 +125,8 @@ Pat yourselves on the back for getting this far.
 And if necessary take a break before going onto the next section.
 
 </section>
-
+<br/>
+<br/>
 <section id="Your_first_function" class="main-section">
 
 <header>Your first function</header>
@@ -142,6 +144,7 @@ Inside the file we are going to write a function that will turn our background p
 A function is an executable piece of code that will perform an action.
 
 We'll start by writing the function header.
+<br/>
 <button class="collapsible">View Code</button>
 <div class="content">
 <br/>
@@ -150,6 +153,7 @@ We'll start by writing the function header.
 </code>
 <br/>
 </div>
+<br/>
 This declares we are creating a function called <em>turnBackgroundPink</em>.
 
 The function keyword indicates that the following is a function.
@@ -205,7 +209,7 @@ Here's what the end result should look like.
 </div>
 <br/>
 </section>
-
+<br/>
 <section id="Using_our_first_function" class="main-section">
 
 <header>Using our first function</header>
@@ -241,7 +245,7 @@ However it isn't doing anything.
 In the section we will be actually running it when the page loads.
 
 </section>
-
+<br/>
 <section id="Script_tags" class="main-section">
 
 <header>Script tags</header>
