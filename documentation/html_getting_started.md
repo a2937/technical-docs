@@ -75,6 +75,7 @@ It should fill out a page similar to below. If not adjust it to match.
   </code>
 </div>
 <br/>
+<br/>
 We're next going to add a script tag element.
 
 This element allows code to be ran on your web page.
