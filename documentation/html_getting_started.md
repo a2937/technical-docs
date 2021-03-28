@@ -41,21 +41,18 @@ Open it up and you should be ready to write some code.
 <header>Hello World</header>
 
 
-To start off with, we will be running code in the browser.
+<p>To start off with, we will be running code in the browser.</p>
 
-Open Visual Studio Code to a blank document and save it as <em>index.html</em>.
+<header>Hello World</header>
+<p>To start off with, we will be running code in the browser.</p>
+<p>Open Visual Studio Code to a blank document and save it as <em>index.html</em>.</p>
+<p>This tells Visual Studio Code we want features related to HTML (hyper text markup language).</p>
+<p>For those unaware html opening and closing tags to express elements of the page.</p>
+<p>Next we'll be using an <em>Emmet</em> abbreviation to fill out a beginner html page.</p>
+<p>Type the following into Visual Studio Code and hit enter.</p>
+<code>html:5</code>
+<p>It should fill out a page similar to below. If not adjust it to match.</p>
 
-This tells Visual Studio Code we want features related to HTML (hyper text markup language).
-
-For those unaware html opening and closing tags to express elements of the page.
-
-Next we'll be using an <em>Emmet</em> abbreviation to fill out a beginner html page.
-
-Type the following into Visual Studio Code and hit enter.
-
-`html:5`
-
-It should fill out a page similar to below. If not adjust it to match.
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -76,11 +73,9 @@ It should fill out a page similar to below. If not adjust it to match.
 </div>
 <br/>
 <br/>
-We're next going to add a script tag element.
-
-This element allows code to be ran on your web page.
-
-Underneath the opening tag to the body, we are going to write
+<p>We're next going to add a script tag element.</p>
+<p>This element allows code to be ran on your web page.</p>
+<p>Underneath the opening tag to the body, we are going to write</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -92,17 +87,12 @@ Underneath the opening tag to the body, we are going to write
   </code>
 </div>
 <br/>
-When our web page gets opened; it will evaluate the code inside.
-
-Open your webpage in the browser and navigate to the developer tools.
-
-This is typically opened by pressing the F12 key on the keyboard.
-
-Once there navigate to the <em>console</em> tab on the developer tools.
-
-The latest line should say <em>Hello World</em>.
-
-If not, please check your document and see that it matches below
+<p> When our web page gets opened; it will evaluate the code inside. </p>
+<p>Open your webpage in the browser and navigate to the developer tools.</p>
+<p>This is typically opened by pressing the F12 key on the keyboard.</p>
+<p>Once there navigate to the <em>console</em> tab on the developer tools.</p>
+<p>The latest line should say <em>Hello World</em>.</p>
+<p>If not, please check your document and see that it matches below</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -123,30 +113,23 @@ If not, please check your document and see that it matches below
   </code>
 </div>
 <br/>
-Pat yourselves on the back for getting this far.
-
-And if necessary take a break before going onto the next section.
-
+<p>Pat yourselves on the back for getting this far.</p>
+<p>And if necessary take a break before going onto the next section.</p>
 </section>
 <br/>
 <br/>
 <section id="Your_first_function" class="main-section">
 
 <header>Your first function</header>
-
-Now we are going to write code in a separate file.
-
-Create a new file in your directory called <em>index.js</em>.
-
-This a proper Javascript file and will be used to contain our code.
-
-There are a load of advantages over writing code directly on the page including but not limited to: reuse, modularity, and convenience.
-
-Inside the file we are going to write a function that will turn our background pink.
-
-A function is an executable piece of code that will perform an action.
-
-We'll start by writing the function header.
+<p>Now we are going to write code in a separate file.</p>
+<p>Create a new file in your directory called <em>index.js</em>.</p>
+<p>This a proper Javascript file and will be used to contain our code.</p>
+<p>There are a load of advantages over writing code directly on the page including but not
+limited to: reuse, modularity, and convenience.
+</p>
+<p>Inside the file we are going to write a function that will turn our background pink.</p>
+<p>A function is an executable piece of code that will perform an action.</p>
+<p>We'll start by writing the function header.</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -158,15 +141,13 @@ We'll start by writing the function header.
 <br/>
 </div>
 <br/>
-This declares we are creating a function called <em>turnBackgroundPink</em>.
-
-The function keyword indicates that the following is a function.
-
-And the two parenthesis are designed to hold any data passed to our function.
-
-Next we will be adding a function body. Create an opening and closing curly brace after the closing parenthesis.
-
-Here is what it should look like so far below.
+<p>This declares we are creating a function called <em>turnBackgroundPink</em>.</p>
+<p>The function keyword indicates that the following is a function.</p>
+<p>And the two parenthesis are designed to hold any data passed to our function.</p>
+<p>Next we will be adding a function body. Create an opening and closing curly brace after the closing
+  parenthesis.
+</p>
+<p>Here is what it should look like so far below.</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -179,9 +160,10 @@ Here is what it should look like so far below.
   </code>
 </div>
 <br/>
-Next we are going to write a line of code that will add the background-color style property to our document body.
-
-Here is what the line looks like below.
+<p>Next we are going to write a line of code that will add the background-color style property to our document
+  body.
+</p>
+<p>Here is what the line looks like below.</p>
 
 <br/>
 <br/>
@@ -192,17 +174,16 @@ Here is what the line looks like below.
   </code>
 </div>
 <br/>
-To summarize what this does, basically the <em>document</em> property represents the current html page in memory.
-
-Next we are locating the body element of the page that exists on the <em>document</em> object.
-
-Then we are setting the style property of that element to affect the background-color, and setting it to pink.
-
-This is in JSON (JavaScript Object Notation). JSON consists of key value pairs and can have interior properties set with colons rather than an equal sign.
-
-More on <a href="https://www.w3schools.com/Js/js_json_objects.asp">JSON</a>here.
-
-Here's what the end result should look like.
+<p>To summarize what this does, basically the <em>document</em> property represents the current html page in
+  memory.</p>
+<p>Next we are locating the body element of the page that exists on the <em>document</em> object.</p>
+<p>Then we are setting the style property of that element to affect the background-color, and setting it to pink.
+</p>
+<p>This is in JSON (JavaScript Object Notation). JSON consists of key value pairs and can have interior properties
+  set with colons rather than an equal sign.
+</p>
+<p>More on <a href="https://www.w3schools.com/Js/js_json_objects.asp">JSON</a> here.</p>
+<p>Here's what the end result should look like.</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -221,17 +202,12 @@ Here's what the end result should look like.
 
 <header>Using our first function</header>
 
-In the last section we defined our last function but didn't use it yet.
-
-Go back to <em>index.html</em>.
-
-Above the closing body tag we are going to add a new script tag.
-
-This time though we are setting the src (source) attribute of the script tag.
-
-The src attribute is used to literally point to a javascript source file.
-
-Here is what the script tag should look like.
+<p>In the last section we defined our last function but didn't use it yet.</p>
+<p>Go back to <em>index.html</em>.</p>
+<p>Above the closing body tag we are going to add a new script tag.</p>
+<p>This time though we are setting the src (source) attribute of the script tag.</p>
+<p>The src attribute is used to literally point to a javascript source file.</p>
+<p>Here is what the script tag should look like.</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -242,29 +218,21 @@ Here is what the script tag should look like.
   </code>
 </div>
 <br/>
-This script tag says as soon as possible put this script file into memory.
-
-This is why typically all script tags go above the closing body tag; to improve website responsiveness.
-
-If you open up the developer tools and go to the console, we should see turnBackgroundPink function is defined.
-
-However it isn't doing anything.
-
-In the section we will be actually running it when the page loads.
-
+<p>This script tag says as soon as possible put this script file into memory.</p>
+<p>This is why typically all script tags go above the closing body tag; to improve website responsiveness.</p>
+<p>If you open up the developer tools and go to the console, we should see turnBackgroundPink function is defined.
+</p>
+<p>However it isn't doing anything.</p>
+<p>In the section we will be actually running it when the page loads.</p>
 </section>
 <br/>
 <section id="Script_tags" class="main-section">
 
 <header>Script tags</header>
-
-In the last section we finally created a function and hooked it up to our main page.
-
-Now we are going to have this function execute automatically.
-
-Add a new script tag below the one you just added.
-
-You should have something like this.
+<p>In the last section we finally created a function and hooked it up to our main page.</p>
+<p>Now we are going to have this function execute automatically. </p>
+<p>Add a new script tag below the one you just added.</p>
+<p>You should have something like this.</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -289,11 +257,9 @@ You should have something like this.
     </code>
   </div>
 <br/>
-In the last script tag we are going to call our function.
-
-In the final script tag we are going to write <em>turnBackgroundPink()</em>
-
-Here's what the final html page should look like.
+<p>In the last script tag we are going to call our function.</p>
+<p>In the final script tag we are going to write <em>turnBackgroundPink()</em></p>
+<p>Here's what the final html page should look like.</p>
 <br/>
 <br/>
 <button class="collapsible">View Code</button>
@@ -318,15 +284,18 @@ Here's what the final html page should look like.
   </code>
 </div>
 <br/>
-The call script tag must come afterwards because every script tag is loaded sequentially (the order in which they go down the page.)
+<p>The call script tag must come afterwards because every script tag is loaded sequentially (the order
+in which they go down the page.)</p>
 
-So after reading this you should have a rough understanding:
+<p>
+So after reading this you should have a rough understanding of how to:
+</p>
 
 <ul>
-  <li>How to install Visual Studio Code</li>
-  <li>A shortcut to create a basic html5 website.</li>
-  <li>How to run code on a webpage.</li>
-  <li>How to create and reference a Javascript source file</li>
-  <li>How to link script tag content together.</li>
+  <li>Install Visual Studio Code</li>
+  <li>Use a shortcut to create a basic html5 website.</li>
+  <li>Run code on a webpage.</li>
+  <li>Create and reference a Javascript source file</li>
+  <li>Link script tag content together.</li>
 </ul>
 </section>

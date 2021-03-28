@@ -1,9 +1,11 @@
 ---
-title: Getting words on the page
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: Making a list 
 layout: documentation
 topic1: Prepping
-topic2: Basic Text Element
-topic3: Headings
+topic2: Unordered Lists
+topic3: Ordered Lists
 
 ---
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
@@ -12,11 +14,10 @@ topic3: Headings
 <section id="prepping" class="main-section">
 
 <header>
-  <p>Basic text element</p>
+  <p>Making a list</p>
 </header>
-<p>Today we will be going over how to add text to your</p>
-<p>website. There are several different available tags but</p>
-<p>I will be going over the most popular text-related ones.</p>
+<p>Today we will be going over how to add two different types of</p>
+<p>Unordered lists and ordered lists.</p>
 
 <p>This will be our starting document. </p>
 
@@ -42,14 +43,13 @@ topic3: Headings
 <br/>
 </section>
 <br/>
-<section id="basic_text_element" class="main-section">
+<section id="unordered_lists" class="main-section">
 
 <header>
-  <p>Basic Text element</p>
+  <p>Unordered Lists</p>
 </header>
 
-<p>All visual elements appear in the body of the html 
-document.</p>
+<p>The first type of list we'll be going </p>
 
 <p>The standard tag for text is the <em>p</em> tag.</p>
 
@@ -164,7 +164,7 @@ your document sections.</p>
 </div>
 <br/>
 <br/>
-<p>So after reading this you should have a rough understanding:</p>
+<p>So after reading this you should have a rough understanding on:</p>
 
 <ul>
   <li>How to add text to a page properly</li>
