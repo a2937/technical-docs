@@ -90,7 +90,7 @@ topic2: Hyperlinks
 <br/>
 <p>The href contains the link information. There are a few other types of links it can handle; 
 such as telephone numbers and creating emails.</p>
-<p>A link on where to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">read more</a>
+<p>A link on where to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">read more about anchors</a>
 </section>
 <br/>
 <br/>
