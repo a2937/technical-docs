@@ -1,7 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Making a list 
+title: Making a list
 layout: documentation
 topic1: Prepping
 topic2: Hyperlinks
@@ -33,7 +33,7 @@ topic2: Hyperlinks
         &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
         &lt;title&gt;Document&lt;/title&gt;<br />
         &lt;/head&gt;<br />
-        &lt;body&gt;<br /> 
+        &lt;body&gt;<br />
         &lt;/body&gt;<br />
         &lt;/html&gt;<br />
   </code>
@@ -78,19 +78,28 @@ topic2: Hyperlinks
         &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
         &lt;title&gt;Document&lt;/title&gt;<br />
         &lt;/head&gt;<br />
-        &lt;body&gt;<br /> 
-        &lt;p&gt;<br /> 
-        &lt;a href="https://www.freecodecamp.org/"&gt;&lt;/a"&gt;<br /> 
-        &lt;/p&gt;<br /> 
+        &lt;body&gt;<br />
+        &lt;p&gt;<br />
+        &lt;a href="https://www.freecodecamp.org/"&gt;&lt;/a"&gt;<br />
+        &lt;/p&gt;<br />
         &lt;/body&gt;<br />
         &lt;/html&gt;<br />
   </code>
 </div>
 <br/>
 <br/>
-<p>The href contains the link information. There are a few other types of links it can handle; 
+<p>The href contains the link information. There are a few other types of links it can handle;
 such as telephone numbers and creating emails.</p>
-<p>A link on where to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">read more about anchors</a>
+<p>There are two other important attributes: rel and target.</p>
+<ul>
+ <li>rel: determines the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types">type of link</a> it is.</li>
+  <li>target: determines which tab to open the link in. By default it is set to <em>_self</em></li>
+</ul>
+<p>A link on where to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">read more about anchors.</a>
+<p>Note the <em>link</em> element is practically the same as an anchor element except it is used for invisible elements.
+  The most common use case is setting the stylesheet and setting the rel value to <em>stylesheet</em>
+  </p>
 </section>
+
 <br/>
 <br/>
