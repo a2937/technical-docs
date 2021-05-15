@@ -4,7 +4,6 @@ layout: documentation
 topic1: Prepping
 topic2: Basic Text Element
 topic3: Headings
-
 ---
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
@@ -33,7 +32,7 @@ topic3: Headings
         &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
         &lt;title&gt;Document&lt;/title&gt;<br />
         &lt;/head&gt;<br />
-        &lt;body&gt;<br /> 
+        &lt;body&gt;<br />
         &lt;/body&gt;<br />
         &lt;/html&gt;<br />
   </code>
@@ -48,7 +47,7 @@ topic3: Headings
   <p>Basic Text element</p>
 </header>
 
-<p>All visual elements appear in the body of the html 
+<p>All visual elements appear in the body of the html
 document.</p>
 
 <p>The standard tag for text is the <em>p</em> tag.</p>
@@ -77,10 +76,10 @@ p tag.</p>
         &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
         &lt;title&gt;Document&lt;/title&gt;<br />
         &lt;/head&gt;<br />
-        &lt;body&gt;<br /> 
-        &lt;p&gt;<br /> 
+        &lt;body&gt;<br />
+        &lt;p&gt;<br />
         hello world
-        &lt;/p&gt;<br /> 
+        &lt;/p&gt;<br />
         &lt;/body&gt;<br />
         &lt;/html&gt;<br />
   </code>
@@ -95,7 +94,7 @@ p tag.</p>
 <header>
   <p>Headings</p>
 </header>
-<p>One of the first few things we can do on our page is add 
+<p>One of the first few things we can do on our page is add
 a proper title.</p>
 <p>In the head section, we can change our current title <em>Document</em>
 to whatever you want.</p>
@@ -116,10 +115,10 @@ replace <em>Document</em> with <em>My First Website</em>.
         &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
         &lt;title&gt;My First Website&lt;/title&gt;<br />
         &lt;/head&gt;<br />
-        &lt;body&gt;<br /> 
-        &lt;p&gt;<br /> 
+        &lt;body&gt;<br />
+        &lt;p&gt;<br />
         hello world
-        &lt;/p&gt;<br /> 
+        &lt;/p&gt;<br />
         &lt;/body&gt;<br />
         &lt;/html&gt;<br />
   </code>
@@ -151,13 +150,13 @@ your document sections.</p>
         &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
         &lt;title&gt;My First Website&lt;/title&gt;<br />
         &lt;/head&gt;<br />
-        &lt;body&gt;<br /> 
-        &lt;h1&gt;<br /> 
+        &lt;body&gt;<br />
+        &lt;h1&gt;<br />
         My First Website
-        &lt;/h1&gt;<br /> 
-        &lt;p&gt;<br /> 
+        &lt;/h1&gt;<br />
+        &lt;p&gt;<br />
         hello world
-        &lt;/p&gt;<br /> 
+        &lt;/p&gt;<br />
         &lt;/body&gt;<br />
         &lt;/html&gt;<br />
   </code>
