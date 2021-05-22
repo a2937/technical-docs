@@ -2,9 +2,8 @@
 title: Running a web server
 layout: documentation
 topic1: introduction
-topic2: Basic Text Element
-topic3: Headings
-
+topic2: Methods
+topic3: Flags
 ---
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
@@ -22,12 +21,37 @@ topic3: Headings
 
 </section>
 
+<section id="Methods" class="main-section">
 
-<!--
+<header>
+  <p>NodeJS fs module</p>
+</header>
 
-Make a reference that on some times you will have to set
-chmod files because the location on the hard drive does not
-have the requires permissions and the read and subsequent replaces
-will fail.
+<p>The most popular methods to use from this module include:</p>
+<ul>
+<li>writeFileSync</li>
+<li>readFileSync</li>
+<li>existsSync</li>
+<li>writeFile</li>
+<li>readFile</li>
+<li>exists</li>
+</ul>
+<p>The difference between the sync methods and the regular methods
+is that the synchronous methods return the value directly and also block the
+the thread.</p>
+<p>It is generally preferred to use asynchronous methods with a callback function; or
+rely on the promises api (code executes immediately after the method finished in it's
+own private function. By being asynchronous, you can run multiple functions in parallel.</p>
+<p>Note:later editions of Javascript have the await/async pattern from C# available;
+you can call an asynchronous method from a regular method using wait. More about this in another
+section.</p>
+</section>
 
--->
+<section id="flags" class="main-section">
+
+<header>
+  <p>NodeJS fs module</p>
+</header>
+
+
+</section>

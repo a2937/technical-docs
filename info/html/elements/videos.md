@@ -4,7 +4,7 @@
 title: Videos
 layout: documentation
 topic1: Overview
-
+topic2: Controlling videos
 ---
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
@@ -40,4 +40,13 @@ is just a bunch of pictures layered on top of each other.</p>
 </div>
 <br/>
 <br/>
+</section>
+
+
+
+<section id="controlling_videos" class="main-section">
+<!--
+Todo : Talk about the start method to begin a video
+and the pause method to stop a video
+-->
 </section>
